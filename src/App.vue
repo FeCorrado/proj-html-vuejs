@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="back">
+      <Header />
+      <Jumbo />
+      <Recipes />
+      <Collection />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
+import Jumbo from "./components/Jumbo.vue";
+import Recipes from "./components/Recipes.vue";
+import Collection from "./components/Collection.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    Jumbo,
+    Recipes,
+    Collection,
+  },
+};
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.back {
+  background-color: #f6f7f1;
 }
 </style>
