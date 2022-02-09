@@ -12,7 +12,7 @@
         <div class="recipes-sx">
           <img src="img/Yogurt-Nan-1200x790.jpg" alt="" />
           <div class="recip-dw">
-            <h2>Lunch Favorite with Salad. Naan And Beans</h2>
+            <h3>Lunch Favorite with Salad. Naan And Beans</h3>
             <h4>Bakery, Featured, Healthy, Latest Recipes, Staff Picks</h4>
             <hr />
             <h4>
@@ -37,6 +37,10 @@
           <img src="img/perfect-cosmopolitan-460x295.jpg" alt="" />
           <img src="img/fi2x-6-460x295.jpg" alt="" />
           <img src="img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="" />
+          <!-- Problema v-for -->
+          <div v-for="(recip, i) in foodimg" :key="i">
+            <img :src="img / recip" alt="" />
+          </div>
         </div>
       </div>
     </div>

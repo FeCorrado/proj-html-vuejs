@@ -5,6 +5,7 @@
       <Jumbo />
       <Recipes />
       <Collection />
+      <Farm />
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Header from "./components/Header.vue";
 import Jumbo from "./components/Jumbo.vue";
 import Recipes from "./components/Recipes.vue";
 import Collection from "./components/Collection.vue";
+import Farm from "./components/Farm.vue";
 
 export default {
   name: "App",
@@ -22,11 +24,13 @@ export default {
     Jumbo,
     Recipes,
     Collection,
+    Farm,
   },
 };
 </script>
 
 <style lang="scss">
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
 #app {
   margin: 0;
   padding: 0;

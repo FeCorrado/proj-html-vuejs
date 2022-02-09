@@ -1,0 +1,33 @@
+.farm {
+  width: 75%;
+  margin: auto;
+  .farm-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft-sx {
+    h3 {
+      color: #6a6b6c;
+    }
+    h5 {
+      color: #6a6b6c;
+    }
+  }
+  .ft-dx {
+    i {
+      width: 150px;
+      height: 150px;
+      color: #afafaf;
+    }
+    .button {
+      background-color: #fc7525;
+      height: 40px;
+      width: 200px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

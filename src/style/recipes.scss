@@ -30,7 +30,6 @@
       }
       h4 {
         color: #6a6b6c;
-        line-height: 2;
       }
       .learn {
         color: white;
@@ -47,9 +46,11 @@
     }
     .recipes-dx {
       width: 49%;
+      display: flex;
+      flex-wrap: wrap;
       img {
-        width: calc(90% / 2);
-        margin: 15px;
+        width: 250px;
+        margin: 5px;
       }
     }
   }
