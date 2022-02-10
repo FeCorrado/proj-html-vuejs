@@ -24,8 +24,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    h4 {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+
     img {
       width: 35%;
+    }
+  }
+  .collection-dw {
+    .card {
+      &:hover {
+        .hv {
+          background-color: #fc7525;
+        }
+      }
     }
   }
 }
